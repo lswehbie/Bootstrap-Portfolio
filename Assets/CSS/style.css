@@ -90,16 +90,10 @@ footer{
 	float:right;
 }
 
-
 #footer{
-	position: fixed;
-	bottom: 0;
-	width: 100%
-	top: 0;
-	left: 0;
-	right: 0;
+	width: 100%;
 	text-align: center;
-
+padding: 10px;
 }
 
 .nav-li{
@@ -122,8 +116,27 @@ footer{
 	float: right;
 	width: 270px;
 	background-color: white;
+	padding: 10px;
 	text-align: center
+}
 
+.connect h2 {
+	background-color: white;
+	color: teal;
+	float: none;
+	/*I made the text big, but you're welcome to change or remove it*/
+	font-size: 20pt;
+	text-align: center;
+}
+
+.connect .row {
+	margin: 0;
+}
+
+.connect-link {
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
 }
 
 .section {
@@ -132,6 +145,14 @@ footer{
 	background-color: white;
 	padding: 20px;
 	border: 650px #dddddd
-	
+}
 
+
+.media {
+	margin-left: 70px;
+}
+
+
+#profilepic {
+	margin-right: 10px;
 }
