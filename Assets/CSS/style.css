@@ -93,7 +93,10 @@ footer{
 #footer{
 	width: 100%;
 	text-align: center;
-padding: 10px;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	background-color: grey;
 }
 
 .nav-li{
@@ -124,10 +127,10 @@ padding: 10px;
 	background-color: white;
 	color: teal;
 	float: none;
-	/*I made the text big, but you're welcome to change or remove it*/
 	font-size: 20pt;
 	text-align: center;
 }
+
 
 .connect .row {
 	margin: 0;
